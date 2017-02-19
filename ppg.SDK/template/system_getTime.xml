@@ -1,0 +1,12 @@
+<data>
+  <name>system_getTime</name>
+  <show_name>system_getTime</show_name>
+  <desc>获取系统时间</desc>
+  <method>/rsService/system/getTime</method>
+  <postMethod>GET</postMethod>
+  <contentType></contentType>
+  <paramList>
+  </paramList>
+  <reqExample>{请求地址}/rsService/system/getTime?appKey=826c8e6e-7a83-409d-b68c-938e4fdc1769&amp;timestamp=1410335671330&amp;sign=b36556723429f6e5b06a090a813fcd4dac13f940</reqExample>
+  <returnResult></returnResult>
+</data>

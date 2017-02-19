@@ -1,0 +1,18 @@
+<data>
+  <name>item_getStockExt</name>
+  <show_name>item_getStockExt</show_name>
+  <desc>获取单个商品库存信息</desc>
+  <method>/rsService/item/getStockExt</method>
+  <postMethod>GET</postMethod>
+  <contentType></contentType>
+  <paramList>
+    <param>
+      <name>sku</name>
+      <desc>商品SKU</desc>
+      <type>String</type>
+      <required>true</required>
+    </param>
+  </paramList>
+  <reqExample>{请求地址}/rsService/item/getStockExt?appKey=826c8e6e-7a83-409d-b68c-938e4fdc1769&amp;timestamp=1410335671330&amp;sku=952841-00011-01&amp;sign=bad1308dd5110b63f01da47ac0451e50f20c535f</reqExample>
+  <returnResult></returnResult>
+</data>

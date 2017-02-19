@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="order_saveIdCard.aspx.cs" Inherits="ppg.SDK.Sample.order_saveIdCard" %>

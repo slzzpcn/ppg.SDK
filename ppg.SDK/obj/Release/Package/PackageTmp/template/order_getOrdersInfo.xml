@@ -1,0 +1,21 @@
+<data>
+  <name>order_getOrdersInfo</name>
+  <show_name>order_getOrdersInfo</show_name>
+  <desc>获取订单信息</desc>
+  <method>/rsService/order/getOrdersInfo</method>
+  <postMethod>GET</postMethod>
+  <contentType></contentType>
+  <paramList>
+    <param>
+      <name>referenceNumber</name>
+      <desc>
+        参考号（第三方订单的唯一标识）
+        注意：如果订单有拆单，那么一个参考号可能对应分销平台多个订单
+      </desc>
+      <type>String</type>
+      <required>true</required>
+    </param>
+  </paramList>
+  <reqExample>{请求地址}/rsService/order/getOrdersInfo?appKey=826c8e6e-7a83-409d-b68c-938e4fdc1769&amp;timestamp=1410335671330&amp;sign=6ba0b689e518279bc489c1b9dea3b1a4c6faad68&amp;referenceNumber=SO8819614090400039</reqExample>
+  <returnResult></returnResult>
+</data>

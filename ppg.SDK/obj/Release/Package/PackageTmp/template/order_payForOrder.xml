@@ -1,0 +1,18 @@
+<data>
+  <name>order_payForOrder</name>
+  <show_name>order_payForOrder</show_name>
+  <desc>订单支付API （通过分销平台订单号支付）</desc>
+  <method>/rsService/order/getTracking</method>
+  <postMethod>GET</postMethod>
+  <contentType></contentType>
+  <paramList>
+    <param>
+      <name>orderNumber</name>
+      <desc>订单号（分销平台生成的订单号）</desc>
+      <type>String</type>
+      <required>true</required>
+    </param>
+  </paramList>
+  <reqExample>{请求地址}/rsService/order/payForOrder?appKey=826c8e6e-7a83-409d-b68c-938e4fdc1769&amp;orderNumber=SO9318214102300001&amp;sign=2d687cbac48b3f99286402a9f259a2b73c89b259</reqExample>
+  <returnResult></returnResult>
+</data>

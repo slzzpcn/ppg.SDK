@@ -1,0 +1,24 @@
+<data>
+  <name>order_getTrackingNumber</name>
+  <show_name>order_getTrackingNumber</show_name>
+  <desc>获取订单物流跟踪号</desc>
+  <method>/rsService/order/getTrackingNumber</method>
+  <postMethod>GET</postMethod>
+  <contentType></contentType>
+  <paramList>
+    <param>
+      <name>orderNumber</name>
+      <desc>进口分销平台的订单号（2个参数只用必填一个）</desc>
+      <type>String</type>
+      <required>true</required>
+    </param>
+    <param>
+      <name>referenceNumber</name>
+      <desc>参考号（第三方订单的唯一标识）（2个参数只用必填一个）</desc>
+      <type>String</type>
+      <required>false</required>
+    </param>
+  </paramList>
+  <reqExample>{请求地址}/rsService/order/getTrackingNumber?appKey=826c8e6e-7a83-409d-b68c-938e4fdc1769&amp;timestamp=1410335671330&amp;sign=6ba0b689e518279bc489c1b9dea3b1a4c6faad68&amp;orderNumber=SO8819614090400039</reqExample>
+  <returnResult></returnResult>
+</data>

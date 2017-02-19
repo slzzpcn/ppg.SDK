@@ -1,0 +1,42 @@
+<data>
+  <name>order_saveIdCard</name>
+  <show_name>order_saveIdCard</show_name>
+  <desc>订单支付API（通过第三方订单号进行支付）</desc>
+  <method>/rsService/order/saveIdCard</method>
+  <postMethod>POST</postMethod>
+  <contentType>multipart/form-data;boundary=-----------------------------7db372eb000e2</contentType>
+  <paramList>
+    <param>
+      <name>orderNumber</name>
+      <desc>订单号（分销平台生成的订单号）</desc>
+      <type>String</type>
+      <required>true</required>
+    </param>
+    <param>
+      <name>idCard.no</name>
+      <desc>收件人身份证号码。15或者18位有效身份证号（身份证号不对将提示参数不正确）</desc>
+      <type>String</type>
+      <required>true</required>
+    </param>
+    <param>
+      <name>idCard.frontPic</name>
+      <desc>
+        身份证正面图片（根据订单所选物流规则决定是否需要上传）。500kb以下jpg,gif,png格式图片。
+        该字段加密方式参照2.7.2 SHA1加密
+      </desc>
+      <type>Byte[]</type>
+      <required>false</required>
+    </param>
+    <param>
+      <name>idCard.backPic</name>
+      <desc>
+        身份证反面图片（根据订单所选物流规则决定是否需要上传）。500kb以下jpg,gif,png格式图片
+        该字段加密方式参照2.7.2 SHA1加密
+      </desc>
+      <type>Byte[]</type>
+      <required>false</required>
+    </param>
+  </paramList>
+  <reqExample>{请求地址}/rsService/order/payForOrderExt</reqExample>
+  <returnResult></returnResult>
+</data>

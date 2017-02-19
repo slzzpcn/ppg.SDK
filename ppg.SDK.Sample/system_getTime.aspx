@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="system_getTime.aspx.cs" Inherits="ppg.SDK.Sample.system_getTime" %>
