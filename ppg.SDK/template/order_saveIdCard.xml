@@ -4,7 +4,7 @@
   <desc>订单支付API（通过第三方订单号进行支付）</desc>
   <method>/rsService/order/saveIdCard</method>
   <postMethod>POST</postMethod>
-  <contentType>multipart/form-data;boundary=------7db372eb000e2</contentType>
+  <contentType>multipart/form-data;branch test for dev in 21:17 2017-02-19</contentType>
   <paramList>
     <param>
       <name>orderNumber</name>
