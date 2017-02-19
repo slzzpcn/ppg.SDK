@@ -5,6 +5,9 @@
   <method>/rsService/item/getStockExt</method>
   <postMethod>GET</postMethod>
   <contentType>branch test 21:23 2017-02-19</contentType>
+  <contentType>branch test 21:23 2017-02-19</contentType>
+  <contentType>branch test 21:23 2017-02-19</contentType>
+  <contentType>branch test 21:23 2017-02-19</contentType>
   <paramList>
     <param>
       <name>sku</name>
