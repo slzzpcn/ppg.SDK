@@ -1,10 +1,10 @@
-<data>
+﻿<data>
   <name>order_saveIdCard</name>
   <show_name>order_saveIdCard</show_name>
   <desc>订单支付API（通过第三方订单号进行支付）</desc>
   <method>/rsService/order/saveIdCard</method>
   <postMethod>POST</postMethod>
-  <contentType>multipart/form-data;boundary=-----------------------------7db372eb000e2</contentType>
+  <contentType>multipart/form-data;boundary=------7db372eb000e2</contentType>
   <paramList>
     <param>
       <name>orderNumber</name>
